@@ -7,7 +7,7 @@ class Show < ActiveRecord::Base
   end
 
   def most_popular_show
-    put "hello"
+    
   end
 
   def self.lowest_rating
@@ -17,6 +17,10 @@ class Show < ActiveRecord::Base
   def least_popular_show
 
   end
+
+  def self.ratings_sum 
+    Show.sum(:rating)
+  end 
 
   def popular_shows
 
