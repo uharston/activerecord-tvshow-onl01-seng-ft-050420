@@ -26,7 +26,7 @@ class Show < ActiveRecord::Base
 
 
 
-end 
+end
 
 class CreateShows < ActiveRecord::Migration[5.2]
   def change
