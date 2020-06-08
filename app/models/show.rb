@@ -7,7 +7,7 @@ class Show < ActiveRecord::Base
   end
 
   def most_popular_show
-
+    put "hello"
   end
 
   def lowest_rating
