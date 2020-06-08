@@ -6,5 +6,5 @@ class CreateShows < ActiveRecord::Migration[5.2]
       s.string :day
       s.integer :rating
   end
-end 
+end
 end
