@@ -1,29 +1,29 @@
-class Show < ActiveRecord::Base 
+class Show < ActiveRecord::Base
 
   def highest_rating
 
-  end 
+  end
 
   def most_popular_show
 
-  end 
+  end
 
   def lowest_rating
 
-  end 
+  end
 
-  def least_popular_show 
+  def least_popular_show
 
-  end 
+  end
 
-  def popular_shows 
+  def popular_shows
 
-  end 
+  end
 
   def shows_by_alphabetical_order
 
-  end 
+  end
 
-  
+
 
 end 
