@@ -1,3 +1,5 @@
+require 'pry'
+
 class Show < ActiveRecord::Base
 
   def highest_rating
@@ -27,7 +29,3 @@ class Show < ActiveRecord::Base
 
 
 end
-
-
-
-
